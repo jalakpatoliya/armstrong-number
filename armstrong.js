@@ -54,7 +54,7 @@ const getMemoryUsage = () => {
 
 
 const armstrongNumbers = async (num) => {
-
+    num = JSON.parse(num)
     // To calculate process time
     const hrstart = process.hrtime()
 
